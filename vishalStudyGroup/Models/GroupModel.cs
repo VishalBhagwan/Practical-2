@@ -9,7 +9,7 @@ namespace vishalStudyGroup.Models
     public class GroupModel
     {
         [Display(Name = "Student Number")]
-        public int StudnetNum { get; set; }
+        public string StudentNum { get; set; }
 
         [Display(Name = "Name")]
         public string FirstName { get; set; }
