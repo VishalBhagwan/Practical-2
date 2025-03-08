@@ -19,5 +19,8 @@ namespace vishalStudyGroup.Models
 
         [Display(Name = "Email Address")]
         public string Email { get; set; }
+
+        [Display(Name = "Link to Personal Page")]
+        public string myLink { get; set; }
     }
 }
