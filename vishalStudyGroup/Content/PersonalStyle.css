@@ -1,0 +1,70 @@
+﻿/*Navigation Bar*/
+nav {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    font-style: unset;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-right: 1px solid white;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+/*Content*/
+section {
+    border: 2px solid blue; 
+    padding: 15px; 
+    margin: 15px 0; 
+    background-color: white; 
+}
+
+section h2 {
+    text-align: Left; 
+    margin-bottom: 10px; 
+}
+
+section p {
+    flex: 1;
+}
+
+/*Background*/
+.section-content1 {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section-content1 img {
+    width: 150px;
+    height: auto; 
+    object-fit: cover;
+    margin-right: 15px; 
+    transition: transform 0.5s;
+}
+
+.section-content1 img:hover {
+    transform: scaleX(-1);
+}
+
+/*Flip Image*/
+.flip-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.flip-img:hover {
+    transform: scaleX(-1);
+}
