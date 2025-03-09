@@ -150,6 +150,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="HTML\Person1.html" />
     <Content Include="HTML\Person2.html" />
+    <Content Include="HTML\Person3.html" />
+    <Content Include="HTML\Person4.html" />
+    <Content Include="HTML\Person5.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />

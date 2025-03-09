@@ -16,9 +16,9 @@ namespace vishalStudyGroup.Controllers
 
             group.Add(new Models.GroupModel { StudentNum = "u23684722", FirstName = "Vishal", LastName = "Bhagwan", Email = "u23684722@tuks.co.za", myLink = "/HTML/Person1.html" });
             group.Add(new Models.GroupModel { StudentNum = "u23585600", FirstName = "Callum", LastName = "Molver", Email = "u23585600@tuks.co.za", myLink = "/HTML/Person2.html" });
-            group.Add(new Models.GroupModel { StudentNum = "u24706672", FirstName = "Nikhil", LastName = "Sunker", Email = "u24706672@tuks.co.za" });
-            group.Add(new Models.GroupModel { StudentNum = "u23601711", FirstName = "Tyla", LastName = "Naidoo", Email = "u23601711@tuks.co.za" });
-            group.Add(new Models.GroupModel { StudentNum = "u23682044", FirstName = "Musawenkosi", LastName = "Mathebula", Email = "u23682044@tuks.co.za" });
+            group.Add(new Models.GroupModel { StudentNum = "u23582032", FirstName = "Pranavan", LastName = "Naidoo", Email = "u23582032@tuks.co.za", myLink = "/HTML/Person3.html" });
+            group.Add(new Models.GroupModel { StudentNum = "u23430273", FirstName = "Maya", LastName = "Pillay", Email = "u23430273@tuks.co.za", myLink = "/HTML/Person4.html" });
+            group.Add(new Models.GroupModel { StudentNum = "u23958301", FirstName = "Mahilan", LastName = "Naicker", Email = "u23958301@tuks.co.za", myLink = "/HTML/Person4.html" });
 
             return View(group);
         }

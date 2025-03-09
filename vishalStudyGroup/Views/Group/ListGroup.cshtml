@@ -41,7 +41,10 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                <a href="@item.myLink" class="btn btn-primary">View Profile</a>
+                @if (!string.IsNullOrEmpty(item.myLink))
+                {
+                    <a href="@Url.Content(item.myLink)" class="btn btn-primary" target="_blank">LINK</a>
+                }
             </td>
         </tr>
     }

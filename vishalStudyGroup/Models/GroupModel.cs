@@ -24,3 +24,5 @@ namespace vishalStudyGroup.Models
         public string myLink { get; set; }
     }
 }
+
+// <a href="@item.myLink" class="btn btn-primary">View Profile</a>
