@@ -149,6 +149,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HTML\Images\jiyan-wuthering-waves-5k-1920x1080-20503.jpg" />
     <Content Include="HTML\Person1.html" />
     <Content Include="HTML\Person2.html" />
     <Content Include="HTML\Person3.html" />
@@ -191,7 +192,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="HTML\Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

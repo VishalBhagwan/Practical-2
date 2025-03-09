@@ -34,26 +34,42 @@ section h2 {
     margin-bottom: 10px; 
 }
 
-section p {
-    flex: 1;
-}
-
 /*Background*/
-.section-content1 {
+.background {
     display: flex; 
     align-items: center;
     justify-content: flex-start;
 }
 
-.section-content1 img {
+.background img {
     width: 150px;
-    height: auto; 
+    height: auto;
     object-fit: cover;
-    margin-right: 15px; 
+    margin-right: 15px;
     transition: transform 0.5s;
 }
 
-.section-content1 img:hover {
+.background img:hover {
+    transform: scaleX(-1);
+}
+
+/*Hobbies*/
+.hobbies {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.hobbies img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    margin-left: auto;
+    transition: transform 0.5s;
+}
+
+.hobbies img:hover {
     transform: scaleX(-1);
 }
 
